@@ -1,0 +1,37 @@
+{
+  "name": "snorlajs",
+  "version": "1.0.0",
+  "description": "A server creater for lazy developers who just want to create SQL queries",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheustp/snorlajs.git"
+  },
+  "keywords": [
+    "node",
+    "lazy",
+    "rest",
+    "api",
+    "sql",
+    "query"
+  ],
+  "author": "Matheus Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheustp/snorlajs/issues"
+  },
+  "homepage": "https://github.com/matheustp/snorlajs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mariadb": "^2.0.2-rc",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0",
+    "sqlite3": "^4.0.6",
+    "tedious": "^4.1.3"
+  }
+}
